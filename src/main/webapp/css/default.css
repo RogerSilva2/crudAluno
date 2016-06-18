@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+html, body {
+	height: 98%;
+	background-color: #F6F6F6;
+	width: 100%;
+}
+
+.navbar-inverse {
+	background-color: #0A3151;
+	color: #FFFFFF;
+}
+
+.nav > li > a.btn:hover {
+	background-color: #286090;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover {
+	background-color: #0A3151;
+}
+
+.navbar-collapse {
+	background-color: #0A3151;
+}
+
+.content-wrapper {
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100%;
+	padding-top: 1.5%;
+	padding-left: 1.5%;
+}
+
+.glyphicon-pencil {
+	color: #337ab7;
+}
+
+.glyphicon-remove {
+	color: #d9534f;
+}

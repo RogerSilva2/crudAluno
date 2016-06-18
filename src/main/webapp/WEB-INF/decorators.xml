@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<decorators defaultdir="/decorators">
+
+	<decorator name="default" page="default.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+
+	<!-- Decorator em branco -->
+	<decorator name="blank" page="" />
+
+	<excludes>
+		<pattern>/notfound</pattern>
+		<pattern>/internal</pattern>
+		<pattern>/login</pattern>
+		<pattern>/login*</pattern>
+	</excludes>
+</decorators>
